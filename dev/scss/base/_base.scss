@@ -3,3 +3,44 @@
 ============= */
 
 
+.large-image{
+    width:100%;
+}
+ 
+
+.container{
+    display: grid;
+    grid-template-columns: 100px auto 100px;
+    grid-template-areas: 
+        ". content ."
+    ;
+
+    @include xl{
+    grid-template-columns: 100px auto 100px auto 100px;
+    }
+
+    .content{
+        grid-area: content;
+    }
+}
+
+.checkout{
+    display: grid;
+    grid-template-columns: 25px auto auto 25px;
+    grid-template-areas: 
+        ". content ."
+    ;
+
+    @include xl{
+    grid-template-columns: 100px 3fr 100px;
+    }
+
+    .content{
+        grid-area: content;
+    }
+}
+
+body {
+    
+    background-color: $white;
+}
