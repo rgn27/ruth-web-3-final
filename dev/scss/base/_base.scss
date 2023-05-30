@@ -24,7 +24,11 @@
     }
 }
 
+.productpage{
+    background-color: $white;
+}
 .checkout{
+    background-color: $white;
     display: grid;
     grid-template-columns: 25px auto auto 25px;
     grid-template-areas: 
@@ -43,4 +47,24 @@
 body {
     
     background-color: $white;
+}
+
+ul{
+    margin:0;
+    padding: 0;
+
+    li{
+        list-style: none;
+        color: $pastelGreenlight;
+    }
+}
+
+.show-menu{
+    display: block !important;
+}
+
+.hide-for-lg{
+    @include lg{
+        displau: none;
+    }
 }

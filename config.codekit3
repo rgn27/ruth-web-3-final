@@ -94,6 +94,16 @@
       "q" : 90,
       "rq" : 75
     },
+    "\/assets\/Hamburger.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/assets\/Hamburger.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/assets\/iFaward.png" : {
       "ft" : 32768,
       "iS" : 7163,
@@ -238,14 +248,6 @@
       "oAP" : "\/deploy\/html\/checkout.html",
       "oF" : 0
     },
-    "\/deploy\/html\/hero.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/html\/hero.html",
-      "oF" : 0
-    },
     "\/deploy\/html\/productpage.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -338,6 +340,16 @@
       "ou" : "lpckwebp-none",
       "q" : 90,
       "rq" : 75
+    },
+    "\/deploy\/images\/Hamburger.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/images\/Hamburger.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
     },
     "\/deploy\/images\/iFaward.png" : {
       "ft" : 32768,
@@ -463,6 +475,25 @@
       "q" : 90,
       "rq" : 75
     },
+    "\/deploy\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/index.html",
+      "oF" : 0
+    },
+    "\/deploy\/js\/scripts-min-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/deploy\/js\/scripts-min-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
     "\/deploy\/js\/scripts-min.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -480,14 +511,6 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/html\/checkout.html",
-      "oF" : 2
-    },
-    "\/dev\/hero.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/html\/hero.html",
       "oF" : 2
     },
     "\/dev\/img\/$.svg" : {
@@ -574,6 +597,16 @@
       "ou" : "lpckwebp-none",
       "q" : 90,
       "rq" : 75
+    },
+    "\/dev\/img\/Hamburger.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/dev\/img\/Hamburger.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
     },
     "\/dev\/img\/iFaward.png" : {
       "ft" : 32768,
@@ -698,6 +731,25 @@
       "ou" : "lpckwebp-none",
       "q" : 90,
       "rq" : 75
+    },
+    "\/dev\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/index.html",
+      "oF" : 2
+    },
+    "\/dev\/js\/scripts-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/dev\/js\/scripts-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
     },
     "\/dev\/js\/scripts.js" : {
       "bF" : 0,
@@ -868,6 +920,51 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/dev\/scss\/sections\/_checkout.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_checkout.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/_index.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_index.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/_productpage.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_productpage.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/dev\/scss\/styles.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -889,8 +986,8 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/dev\/scss\/styles.css",
-      "oF" : 0,
+      "oAP" : "\/deploy\/css\/styles.css",
+      "oF" : 2,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0

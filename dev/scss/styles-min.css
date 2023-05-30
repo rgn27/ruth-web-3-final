@@ -84,6 +84,7 @@ a {
 abbr[title] {
   border-bottom: none; /* 1 */
   text-decoration: underline; /* 2 */
+  -webkit-text-decoration: underline dotted;
   text-decoration: underline dotted; /* 2 */
 }
 
@@ -340,12 +341,7 @@ template {
   grid-area: content;
 }
 
-.productpage {
-  background-color: #FBFBFB;
-}
-
 .checkout {
-  background-color: #FBFBFB;
   display: grid;
   grid-template-columns: 25px auto auto 25px;
   grid-template-areas: ". content .";
@@ -361,25 +357,6 @@ template {
 
 body {
   background-color: #FBFBFB;
-}
-
-ul {
-  margin: 0;
-  padding: 0;
-}
-ul li {
-  list-style: none;
-  color: #EFF4EF;
-}
-
-.show-menu {
-  display: block !important;
-}
-
-@media (min-width: 992px) {
-  .hide-for-lg {
-    displau: none;
-  }
 }
 
 /* =============
@@ -423,129 +400,9 @@ textarea {
 /* =============
     Navigation
 ============= */
-nav {
-  display: none;
-  background-color: #FBFBFB;
-  height: 130px;
-  position: absolute;
-  right: 0;
-  top: 0;
-  width: 1440px;
-}
-@media (min-width: 992px) {
-  nav {
-    background-color: #FBFBFB;
-    display: block;
-    height: 100%;
-    padding: 0;
-    position: relative;
-    width: 100%;
-  }
-}
-nav div {
-  display: flex;
-  justify-content: flex-end;
-}
-nav div button {
-  background-color: transparent;
-  border: none;
-  color: #313131;
-}
-nav div button:hover {
-  cursor: pointer;
-}
-nav ul {
-  height: 100%;
-  padding-top: 20%;
-}
-@media (min-width: 992px) {
-  nav ul {
-    align-items: center;
-    display: flex;
-    justify-content: flex-end;
-    padding-top: 0;
-  }
-}
-nav ul li {
-  display: flex;
-  justify-content: flex-end;
-  margin-bottom: 24px;
-  text-align: right;
-}
-@media (min-width: 992px) {
-  nav ul li {
-    border-left: 1px solid #313131;
-    margin-bottom: 0;
-    margin-left: 16px;
-    padding-left: 24px;
-  }
-}
-nav ul li a:link,
-nav ul li a:visited {
-  color: #313131;
-  font-size: 20px;
-  font-weight: 200px;
-  text-decoration: none;
-  transition: 0.25s;
-}
-@media (min-width: 992px) {
-  nav ul li a:link,
-  nav ul li a:visited {
-    color: #313131;
-  }
-}
-nav ul li a:link:hover, nav ul li a:link:active,
-nav ul li a:visited:hover,
-nav ul li a:visited:active {
-  color: #313131;
-}
-nav ul li:first-child {
-  border: none;
-}
-
 /* =============
     Header
 ============= */
-header.container {
-  padding: 24px 0;
-  position: fixed;
-  width: 100%;
-  background-color: #EFF4EF;
-}
-header.container .content {
-  display: grid;
-  grid-template-columns: 4fr;
-  grid-template-areas: "burger";
-}
-@media (min-width: 992px) {
-  header.container .content {
-    grid-template-areas: "logo nav";
-  }
-}
-header.container .content .logo {
-  color: #313131;
-  font-size: 40px;
-}
-header.container .content .burger-container {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-}
-@media (min-width: 992px) {
-  header.container .content .burger-container {
-    display: none;
-  }
-}
-header.container .content .burger-container button {
-  border: none;
-  background-color: #FBFBFB;
-  color: #313131;
-  font-size: 20px;
-}
-header.container .content .burger-container button:hover {
-  cursor: pointer;
-}
-
 /* =============
     Footer
 ============= */

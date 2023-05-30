@@ -1,3 +1,83 @@
 /* =============
     Navigation
 ============= */
+
+nav{
+    display: none;
+    background-color: $white;
+    height: 130px;
+    position: absolute;
+    right:0;
+    top: 0;
+    width: 1440px;
+
+    @include lg{
+        background-color: $white;
+        display: block;
+        height: 100%;
+        padding: 0;
+        position:relative;
+        width: 100%;
+    }
+
+    div{
+        display: flex;
+        justify-content: flex-end;
+        button{
+            background-color: transparent;
+            border: none;
+            color: $black;
+
+            &:hover{
+                cursor: pointer;
+            }
+        }
+    }
+    ul{
+        height: 100%;
+        padding-top: 20%;
+        @include lg {
+            align-items: center;
+            display: flex;
+            justify-content: flex-end;
+            padding-top:0;
+
+        }
+
+        li{
+            display: flex;
+            justify-content: flex-end;
+            margin-bottom: 24px;
+            text-align: right;
+
+            @include lg{
+                border-left: 1px solid $black;
+                margin-bottom: 0;
+                margin-left: 16px;
+                padding-left: 24px;
+            }
+            a:link,
+            a:visited {
+                color: $black;
+                font-size: 20px;
+                font-weight: 200px;
+                text-decoration:none;
+                transition: .25s;
+
+                @include lg{
+                    color: $black;
+                }
+
+                &:hover,
+                &:active {
+                    color: $black;
+                }   
+            }
+            &:first-child{
+                border: none;
+
+            }
+        }
+    }
+
+}
