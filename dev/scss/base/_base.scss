@@ -26,6 +26,12 @@
 
 .productpage{
     background-color: $white;
+    grid-template-columns: 4fr;
+    
+    .content{
+        grid-area: content;
+        
+    }
 }
 .checkout{
     background-color: $white;

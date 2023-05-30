@@ -342,6 +342,10 @@ template {
 
 .productpage {
   background-color: #FBFBFB;
+  grid-template-columns: 4fr;
+}
+.productpage .content {
+  grid-area: content;
 }
 
 .checkout {
