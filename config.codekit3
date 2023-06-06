@@ -195,6 +195,19 @@
       "q" : 90,
       "rq" : 75
     },
+    "\/assets\/smeg-50s-retro-2-slice-toaster.jpeg" : {
+      "ft" : 16384,
+      "iS" : 15315,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/smeg-50s-retro-2-slice-toaster.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/assets\/Star.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -351,6 +364,19 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/deploy\/images\/hero.jpeg" : {
+      "ft" : 16384,
+      "iS" : 15315,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/images\/hero.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/images\/iFaward.png" : {
       "ft" : 32768,
       "iS" : 7163,
@@ -377,11 +403,11 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/deploy\/images\/Pastel Blue.png" : {
+    "\/deploy\/images\/PastelBlue.png" : {
       "ft" : 32768,
       "iS" : 183,
       "oA" : 0,
-      "oAP" : "\/deploy\/images\/Pastel Blue.png",
+      "oAP" : "\/deploy\/images\/PastelBlue.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -390,11 +416,11 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/deploy\/images\/Pastel Green.png" : {
+    "\/deploy\/images\/PastelGreen.png" : {
       "ft" : 32768,
       "iS" : 181,
       "oA" : 0,
-      "oAP" : "\/deploy\/images\/Pastel Green.png",
+      "oAP" : "\/deploy\/images\/PastelGreen.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -699,6 +725,19 @@
       "q" : 90,
       "rq" : 75
     },
+    "\/dev\/img\/smeg-50s-retro-2-slice-toaster.jpeg" : {
+      "ft" : 16384,
+      "iS" : 15315,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/img\/smeg-50s-retro-2-slice-toaster.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/dev\/img\/Star.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -964,30 +1003,6 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
-    },
-    "\/dev\/scss\/styles-min.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/scss\/styles-min-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/dev\/scss\/styles.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/scss\/styles-min.css",
-      "oF" : 0,
-      "pg" : 0
     },
     "\/dev\/scss\/styles.scss" : {
       "aP" : 0,

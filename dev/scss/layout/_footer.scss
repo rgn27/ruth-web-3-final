@@ -1,3 +1,26 @@
 /* =============
     Footer
 ============= */
+
+footer.container{
+    padding: 24px 0;
+    position: fixed;
+    width: 100%;
+    background-color: $pastelGreenlight;
+
+    .content{
+        display: grid;
+        grid-template-columns: 4fr;
+        grid-template-areas: "burger";
+
+        @include lg{
+            grid-template-areas: "logo nav";
+        }
+
+        .logo{
+            color: $black;
+            font-size:40px;
+        }
+
+    }
+}

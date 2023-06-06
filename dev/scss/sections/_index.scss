@@ -1,3 +1,67 @@
 /* =============
-    Footer
+    Hero
 ============= */
+
+.large-image{
+    width:100%;
+}
+ 
+.hero{
+    
+    img{
+        display: block;
+    }
+
+    .hero-content{
+        color: $black;
+
+        a{
+            color: $black;
+            text-decoration: none;
+
+            img{
+                display: inline-block;
+            }
+
+        }
+
+        @include md{
+            
+            display: grid;
+            grid-template-columns: 40% 60%;
+        }
+
+        @include lg{
+            
+            grid-template-columns: 50% 50%;
+        }
+
+        .container{
+            .content{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-template-areas: 
+                "div link";
+
+                .information{
+                    grid-area: div;
+
+                }
+                a{
+                    grid-area: link;
+                    justify-self: end;
+                    align-self: center;
+
+                    span{
+                        display: none;
+
+                        @include lg{
+                            display: inline-block;
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

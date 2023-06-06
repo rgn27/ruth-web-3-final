@@ -1,3 +1,78 @@
 /* =============
-    Footer
+    Checkout
 ============= */
+
+.checkout-grid{
+    grid-template-columns: 3fr;
+    grid-template-areas: ". content .";
+}
+
+    .row-1{
+        display: grid;
+        grid-template-columns: 100px auto 100px;
+        grid-template-areas: 
+        ". content ."
+    ;
+    }
+
+    .row-2{
+        display: grid;
+        grid-template-columns: 100px 6fr 100px;
+        grid-template-areas: ". content .";
+
+
+    }
+
+
+    .row-3{
+        display: grid;
+        grid-template-columns: 100px 6fr 100px;
+        grid-template-areas: ". content .";
+
+    }
+
+    .row-4{
+        display: grid;
+        grid-template-columns: 100px 6fr 100px;
+        grid-template-areas: ". content .";
+
+    }
+
+    .row-5{
+        display: grid;
+        grid-template-columns: 100px 6fr 100px;
+        grid-template-areas: ". content .";
+
+    }
+
+
+    .column-1{
+        column-count: 6;
+        grid-template-areas: ". content .";
+
+    }
+
+    .column-2{
+        column-count: 6;
+        grid-template-areas: ". content .";
+    }
+
+    .column-3{
+        column-count: 6;
+        grid-template-areas: ". content .";
+    }
+
+    .column-4{
+        column-count: 6;
+        grid-template-areas: ". content .";
+    }
+
+    .column-5{
+        column-count: 6;
+        grid-template-areas: ". content .";
+    }
+
+    .column-6{
+        column-count: 6;
+        grid-template-areas: ". content .";
+    }

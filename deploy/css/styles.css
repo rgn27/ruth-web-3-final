@@ -342,7 +342,7 @@ template {
 
 .productpage {
   background-color: #FBFBFB;
-  grid-template-columns: 4fr;
+  grid-template-columns: 16px 4fr 16px;
 }
 .productpage .content {
   grid-area: content;
@@ -553,3 +553,23 @@ header.container .content .burger-container button:hover {
 /* =============
     Footer
 ============= */
+footer.container {
+  padding: 24px 0;
+  position: fixed;
+  width: 100%;
+  background-color: #EFF4EF;
+}
+footer.container .content {
+  display: grid;
+  grid-template-columns: 4fr;
+  grid-template-areas: "burger";
+}
+@media (min-width: 992px) {
+  footer.container .content {
+    grid-template-areas: "logo nav";
+  }
+}
+footer.container .content .logo {
+  color: #313131;
+  font-size: 40px;
+}

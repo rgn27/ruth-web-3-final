@@ -26,7 +26,7 @@
 
 .productpage{
     background-color: $white;
-    grid-template-columns: 4fr;
+    grid-template-columns: 16px 4fr 16px;
     
     .content{
         grid-area: content;
