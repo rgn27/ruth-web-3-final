@@ -2,17 +2,38 @@
     Forms
 ============= */
 
-[type='text'], [type='password'], [type='date'], [type='datetime'], [type='datetime-local'], [type='month'], [type='week'], [type='email'], [type='number'], [type='search'], [type='tel'], [type='time'], [type='url'], [type='color'], textarea{
-	box-shadow: none;
-}
+form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .form-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  label {
+    
+    margin-right: 10px;
+    letter-spacing: 3px;
+    font-size: 18px;
+  }
+  
+  input[type="text"],
+  input[type="email"] {
+    flex: 1;
+    background-color: $steel;
+    color:$black;
+    border: none;
+    padding: 10px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+  }
 
-[type='text']:focus, [type='password']:focus, [type='date']:focus, [type='datetime']:focus, [type='datetime-local']:focus, [type='month']:focus, [type='week']:focus, [type='email']:focus, [type='number']:focus, [type='search']:focus, [type='tel']:focus, [type='time']:focus, [type='url']:focus, [type='color']:focus, textarea:focus{
-	box-shadow: none;
-}
-
-input[type=text],
-input[type=email],
-input[type=password],
-textarea {
-    -webkit-appearance: none;
-}
+  
+  
+  
+  
+  

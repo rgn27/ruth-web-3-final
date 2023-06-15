@@ -2,25 +2,41 @@
     Footer
 ============= */
 
-footer.container{
-    padding: 24px 0;
-    position: fixed;
-    width: 100%;
-    background-color: $pastelGreenlight;
+.footer-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: $pastelGreenlight;
+  padding: 20px;
+  font-size: 16px;
+  width: 100%;
+}
 
-    .content{
-        display: grid;
-        grid-template-columns: 4fr;
-        grid-template-areas: "burger";
+.footer-links a {
+  text-decoration: none;
+  color: $black;
+  margin: 20px 40px; 
+  align-items: left;
+  font-size: 16px;
+}
 
-        @include lg{
-            grid-template-areas: "logo nav";
-        }
+a:hover {
+  color: $blackLight;
+  text-decoration: underline; 
+}
 
-        .logo{
-            color: $black;
-            font-size:40px;
-        }
+//Mobile
+@media only screen and (max-width: 767px) {
+  .footer {
+    display: block;
+  }
 
-    }
+  .footer-links {
+    justify-content: left;
+  }
+
+  .footer-links a {
+    flex-basis: calc(50% - 20px); 
+  }
 }

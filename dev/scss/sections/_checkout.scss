@@ -2,77 +2,49 @@
     Checkout
 ============= */
 
-.checkout-grid{
-    grid-template-columns: 3fr;
-    grid-template-areas: ". content .";
-}
+.tile-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .tile {
+    display: flex;
+    width: 100%;
 
-    .row-1{
-        display: grid;
-        grid-template-columns: 100px auto 100px;
-        grid-template-areas: 
-        ". content ."
-    ;
+    margin-bottom: 30px;
+    padding: 20px;
+    align-items: center;
+    border: 1px solid $steel;
+  }
+  
+  .column {
+    flex-basis: calc(100% / 6); 
+    padding: 10px;
+    text-align: left;
+  }
+  
+//Tablet
+  @media (max-width: 1024px) { 
+    .column {
+      flex-basis: calc(100% / 2); 
     }
+  }
 
-    .row-2{
-        display: grid;
-        grid-template-columns: 100px 6fr 100px;
-        grid-template-areas: ". content .";
-
-
+//Mobile
+  @media (max-width: 767px) { 
+    .tile {
+      flex-direction: column;
     }
-
-
-    .row-3{
-        display: grid;
-        grid-template-columns: 100px 6fr 100px;
-        grid-template-areas: ". content .";
-
+    .column {
+      flex-basis: 100%; 
+      border-right: none;
+      text-align: left;
+      
     }
+  }
 
-    .row-4{
-        display: grid;
-        grid-template-columns: 100px 6fr 100px;
-        grid-template-areas: ". content .";
-
-    }
-
-    .row-5{
-        display: grid;
-        grid-template-columns: 100px 6fr 100px;
-        grid-template-areas: ". content .";
-
-    }
-
-
-    .column-1{
-        column-count: 6;
-        grid-template-areas: ". content .";
-
-    }
-
-    .column-2{
-        column-count: 6;
-        grid-template-areas: ". content .";
-    }
-
-    .column-3{
-        column-count: 6;
-        grid-template-areas: ". content .";
-    }
-
-    .column-4{
-        column-count: 6;
-        grid-template-areas: ". content .";
-    }
-
-    .column-5{
-        column-count: 6;
-        grid-template-areas: ". content .";
-    }
-
-    .column-6{
-        column-count: 6;
-        grid-template-areas: ". content .";
-    }
+  .highlight {
+    color: $gold;
+  }
+  
+ 

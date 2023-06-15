@@ -2,75 +2,10 @@
     Base
 ============= */
 
-
 .large-image{
     width:100%;
 }
  
-
-.container{
-    display: grid;
-    grid-template-columns: 100px auto 100px;
-    grid-template-areas: 
-        ". content ."
-    ;
-
-    @include xl{
-    grid-template-columns: 100px auto 100px auto 100px;
-    }
-
-    .content{
-        grid-area: content;
-    }
-}
-
-.productpage{
+body { 
     background-color: $white;
-    grid-template-columns: 16px 4fr 16px;
-    
-    .content{
-        grid-area: content;
-        
-    }
-}
-.checkout{
-    background-color: $white;
-    display: grid;
-    grid-template-columns: 25px auto auto 25px;
-    grid-template-areas: 
-        ". content ."
-    ;
-
-    @include xl{
-    grid-template-columns: 100px 3fr 100px;
-    }
-
-    .content{
-        grid-area: content;
-    }
-}
-
-body {
-    
-    background-color: $white;
-}
-
-ul{
-    margin:0;
-    padding: 0;
-
-    li{
-        list-style: none;
-        color: $pastelGreenlight;
-    }
-}
-
-.show-menu{
-    display: block !important;
-}
-
-.hide-for-lg{
-    @include lg{
-        displau: none;
-    }
 }

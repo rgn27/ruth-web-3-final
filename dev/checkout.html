@@ -1,6 +1,4 @@
 <!doctype html>
-
-
 <html lang="en">
 
   <head>
@@ -14,256 +12,262 @@
     <title>Check Out</title>
   </head>
 
-<body class="checkout-grid">
-    <!--Top Nav-->
-    <nav id="main-menu">
-      <div class="container"> 
-        <div class="content">
-          <div class="burger-container">
-            <button id="burger-btn">
-              <i class="fa-solid fa-bars"></i>
-            </button>
-          </div>
-      
-        
+<body>
 
+<!--Nav-->
+<nav class="navbar">
+  <div class="navbar-logo">
+    <img src="images/Logo.png" alt="Logo">
+  </div>
+  <ul class="navbar-links">
+    <li><a href="#">Collaborations</a></li>
+    <li><a href="#">Subscribe</a></li>
+    <li><a href="#">Product Lines</a></li>
+    <li><a href="#">Search</a></li>
+  </ul>
+  <div class="hamburger-icon">
+      <img src="images/Hamburger.svg" alt="BurgerIcon">
+  </div>
+  <div class="navbar-links-mobile">
+    <ul>
+      <li><a href="#">Collaborations</a></li>
+      <li><a href="#">Subscribe</a></li>
+      <li><a href="#">Product Lines</a></li>
+      <li><a href="#">Search</a></li>
+    </ul>
+  </div>
+</nav>
 
-        <!--Desktop Nav-->
-          <div class="hide-for-lg">
-            <button id=close-btn>
-              <i class="fa-solid fa-xmark-large"></i>
-            </button>
-          </div>
-          <ul>
-            <li><a href="#"> <h4>Collaborations</h4> </a></li>
-            <li><a href="#"> <h4>Subscribe</h4> </a></li>
-            <li><img src="images/logo.png" alt="logo"></li>
-            <li><a href="#"> <h4>Product Lines</h4></a></li>
-            <li><a href="#"> <h4>Search</h4></a></li>
-          </ul>
+<!--Content-->
+
+<div class="tile-container">
+  <div class="tile">
+    <div class="column">
+    </div>
+    <div class="column"> 
+    </div>
+    <div class="column">     
+    </div>
+  </div>
+</div>
+    <div class="tile-container">
+      <div class="tile">
+        <div class="column">
+            
+              <div class="form-row">
+                <label for="name">Search</label>
+                <input type="text" id="name" name="name" required>
+              </div>
+        </div>
+        <div class="column">
+              
+              <div class="form-row">
+                <label for="email">Zipcode</label>
+                <input type="email" id="email" name="email" required>
+              </div>
+        </div>
+        <div class="column">
+            
+              <button class="button"> Search</button>
         </div>
       </div>
-    </nav>
+    
+      <div class="tile">
+            <div class="column">
+              <label> Where to buy</label>
+            </div> 
+            <div class="column">
+              <label>'Pastel Blue Two Slice Toaster'</label>
+            </div> 
+      </div>
 
-    <!--Content-->
-  <section class="checkout-grid">
-      <div class="column-1">
-        
-        <div>
-          <h3>Search</h3>
-          <form action="#">
-            <input type="text"> </form>
-        </div>
-
-        <div>
-          <h3>Zip code </h3>
-          <form action="#">
-            <input type="text"> </form>
+      <div class="tile">
+        <div class="column">
+          <label>Sort By</label>
         </div> 
+        <div class="column">
+          <button class="filter-btn">Available in Store</button>
+        </div>
+        <div class="column">
+          <button class="filter-btn">Available Online</button>
+        </div>
+        <div class="column">
+          <button class="filter-btn"><img src="../images/Star.svg" alt="Star"> <img src="../images/Star2.svg" alt="Starselected"> Customer Experience</button>
+        </div>
+        <div class="column">
+          <button class="filter-btn"><img src="../images/$.svg" alt="$"><img src="../images/$2.svg" alt="$selected"> Price </button>
+        </div>
+      </div>
 
-        <button> Search</button>
-    </div> 
+<!-- Row1 -->
+      <div class="tile">
+        <div class="column">
+          <img src="../images/blue2.png" alt="product">
+        </div>
+        <div class="column">
+          <img src="../images/Star2.svg" alt="Starselected">
+          <img src="../images/Star2.svg" alt="Starselected">
+          <img src="../images/Star2.svg" alt="Starselected">
+          <img src="../images/Star.svg" alt="Star">
+          <img src="../images/Star.svg" alt="Star">
+        </div>
+        <div class="column">
+          <img src="../images/$2.svg" alt="$selected">
+          <img src="../images/$2.svg" alt="$selected">
+          <img src="../images/$2.svg" alt="$selected">
+          <img src="../images/$2.svg" alt="$selected">
+          <img src="../images/$2.svg" alt="$selected">
+        </div>
+        <div class="column"><h5><span class="highlight"></span></h5></div>
+        <div class="column"><h5><span class="highlight">Available In Store</span></h5></div>
+        <div class="column">
+          <button class=button>Crate and Barrel</button></div>
+      </div>
+      
+<!-- Row2 -->
+      <div class="tile">
+        <div class="column">
+          <img src="../images/blue2.png" alt="product">
+        </div>
+        <div class="column">
+          <img src="../images/Star2.svg" alt="Starselected">
+          <img src="../images/Star.svg" alt="Star">
+          <img src="../images/Star.svg" alt="Star">
+          <img src="../images/Star.svg" alt="Star"> 
+          <img src="../images/Star.svg" alt="Star"> 
+        </div>
+        <div class="column">
+          <img src="../images/$2.svg" alt="$selected">
+          <img src="../images/$2.svg" alt="$selected">
+          <img src="../images/$2.svg" alt="$selected">
+          <img src="../images/$.svg" alt="$">
+          <img src="../images/$.svg" alt="$">
+        </div>
+        <div class="column"><h5><span class="highlight"></span></h5></div>
+        <div class="column"><h5><span class="highlight">Available In Store</span></h5></div>
+        <div class="column">
+          <button class=button>Wayfair</button></div>
+      </div>
 
-    <div>
-      <h3>Where to buy 'Pastel Blue Two Slice Toaster</h3>
-    </div> 
+<!-- Row3 -->
+      <div class="tile">
+        <div class="column">
+          <img src="../images/blue2.png" alt="product">
+        </div>
+        <div class="column">
+          <img src="../images/Star2.svg" alt="Starselected">
+          <img src="../images/Star2.svg" alt="Starselected">
+          <img src="../images/Star2.svg" alt="Starselected">
+          <img src="../images/Star2.svg" alt="Starselected">
+          <img src="../images/Star.svg" alt="Star">  
+        </div>
+        <div class="column">
+          <img src="../images/$2.svg" alt="$selected">
+          <img src="../images/$2.svg" alt="$selected">
+          <img src="../images/$2.svg" alt="$selected">
+          <img src="../images/$2.svg" alt="$selected">
+          <img src="../images/$.svg" alt="$">
+        </div>
+        <div class="column"><h5><span class="highlight">Available Online</span></h5></div>
+        <div class="column"><h5><span class="highlight">Available In Store</span></h5></div>
+        <div class="column">
+          <button class=button>JC Penny</button></div>
+      </div>
 
-    <div>
-      <h4>Sort By</h4>
+<!-- Row4 -->
+      <div class="tile">
+        <div class="column">
+          <img src="../images/blue2.png" alt="product">
+        </div>
+        <div class="column">
+          <img src="../images/Star2.svg" alt="Starselected">
+          <img src="../images/Star2.svg" alt="Starselected">
+          <img src="../images/Star.svg" alt="Star">
+          <img src="../images/Star.svg" alt="Star"> 
+          <img src="../images/Star.svg" alt="Star"> 
+        </div>
+        <div class="column">
+          <img src="../images/$2.svg" alt="$selected">
+          <img src="../images/$2.svg" alt="$selected">
+          <img src="../images/$2.svg" alt="$selected">
+          <img src="../images/$.svg" alt="$">
+          <img src="../images/$.svg" alt="$">
+        </div>
+        <div class="column"><h5><span class="highlight">Available Online</span></h5></div>
+        <div class="column"><h5><span class="highlight"></span></h5></div>
+        <div class="column">
+          <button class=button>Macy's</button></div>
+      </div>
+
+<!-- Row5 -->
+      <div class="tile">
+        <div class="column">
+          <img src="../images/blue2.png" alt="product">
+        </div>
+        <div class="column">
+          <img src="../images/Star2.svg" alt="Starselected">
+          <img src="../images/Star2.svg" alt="Starselected">
+          <img src="../images/Star.svg" alt="Star">
+          <img src="../images/Star.svg" alt="Star"> 
+          <img src="../images/Star.svg" alt="Star"> 
+        </div>
+        <div class="column">
+          <img src="../images/$2.svg" alt="$selected">
+          <img src="../images/$2.svg" alt="$selected">
+          <img src="../images/$2.svg" alt="$selected">
+          <img src="../images/$2.svg" alt="$selected">
+          <img src="../images/$.svg" alt="$">
+        </div>
+        <div class="column"><h5><span class="highlight">Available Online</span></h5></div>
+        <div class="column"><h5><span class="highlight">Available In Store</span></h5></div>
+        <div class="column">
+          <button class=button>Walmart</button></div>
+      </div>
+
+<!-- Row6 -->
+      <div class="tile">
+        <div class="column">
+          <img src="../images/blue2.png" alt="product">
+        </div>
+        <div class="column">
+          <img src="../images/Star2.svg" alt="Starselected">
+          <img src="../images/Star2.svg" alt="Starselected">
+          <img src="../images/Star.svg" alt="Star">
+          <img src="../images/Star.svg" alt="Star"> 
+          <img src="../images/Star.svg" alt="Star"> 
+        </div>
+        <div class="column">
+          <img src="../images/$2.svg" alt="$selected">
+          <img src="../images/$2.svg" alt="$selected">
+          <img src="../images/$2.svg" alt="$selected">
+          <img src="../images/$.svg" alt="$">
+          <img src="../images/$.svg" alt="$">
+        </div>
+        <div class="column"><h5><span class="highlight">Available Online</span></h5></div>
+        <div class="column"><h5><span class="highlight"></span></h5></div>
+        <div class="column">
+          <button class=button>Amazon</button></div>
+      </div>  
+
     </div>
     
-    <div class="column-1">
-      <button> Available in Store </button>
 
-      <button> Available Online </button>
 
-      <div>
-        <button><img src="../images/Star.svg" alt="Star"> <img src="../images/Star2.svg" alt="Starselected"> Customer Experience</button>
-      </div>
-
-      <div>
-        <button><img src="../images/$.svg" alt="$"><img src="../images/$2.svg" alt="$selected"> Price </button>
-      </div>
+<!-- Footer -->
+<footer class="footer">
+  <div class="footer-links">
+    <a href="#">Product Lines</a>
+    <a href="#">Buy</a>
+    <a href="#">Subscribe</a>
+    <a href="#">Collaborations</a>
+    <a href="#">About Us</a>
+    <a href="#">Help</a>
+    <div class="navbar-logo"> <img src="images/Logo.png" alt="Logo">
     </div>
-
-      <div class="row-1">
-        <div class="column-1">
-          <img src="../images/blue2.png" alt="product">
-        </div>
-        <div class="column-2">
-          <img src="../images/Star2.svg" alt="Starselected">
-          <img src="../images/Star2.svg" alt="Starselected">
-          <img src="../images/Star2.svg" alt="Star">
-          <img src="../images/Star.svg" alt="Star"> 
-          <img src="../images/Star.svg" alt="Star"> 
-        </div>
-        
-        <div class="column-3">
-          <img src="../images/$2.svg" alt="$selected">
-          <img src="../images/$2.svg" alt="$selected">
-          <img src="../images/$2.svg" alt="$selected">
-          <img src="../images/$2.svg" alt="$selected">
-          <img src="../images/$2.svg" alt="$selected">
-        </div>
-        
-        <div class="column-4">
-          <h5>Available Online</h5>
-        </div>
-        <div class="column-5">
-          <h5>Available in Store</h5>
-        </div>
-        <button class="column-6">
-          Wayfair
-        </button>
-      </div>
-
-      <div class="row-2">
-        <div class="column-1">
-          <img src="../images/blue2.png" alt="product">
-        </div>
-        <div class="column-2">
-          <img src="../images/Star2.svg" alt="Starselected">
-          <img src="../images/Star2.svg" alt="Star">
-          <img src="../images/Star2.svg" alt="Star">
-          <img src="../images/Star.svg" alt="Star"> 
-          <img src="../images/Star.svg" alt="Star"> 
-        </div>
-        
-        <div class="column-3">
-          <img src="../images/$2.svg" alt="$selected">
-          <img src="../images/$2.svg" alt="$selected">
-          <img src="../images/$2.svg" alt="$">
-          <img src="../images/$2.svg" alt="$">
-          <img src="../images/$2.svg" alt="$">
-        </div>
-        
-        <div class="column-4">
-          <h5>Available Online</h5>
-        </div>
-        <div class="column-5">
-          <h5>Available in Store</h5>
-        </div>
-        <button class="column-6">
-          Wayfair
-        </button>
-      </div>
-
-      <div class="row-3">
-          <div class="column-1">
-            <img src="../images/blue2.png" alt="product">
-          </div>
-          <div class="column-2">
-            <img src="../images/Star2.svg" alt="Starselected">
-            <img src="../images/Star2.svg" alt="Starselected">
-            <img src="../images/Star2.svg" alt="Starselected">
-            <img src="../images/Star.svg" alt="Star"> 
-            <img src="../images/Star.svg" alt="Star"> 
-          </div>
-          
-          <div class="column-3">
-            <img src="../images/$2.svg" alt="$selected">
-            <img src="../images/$2.svg" alt="$selected">
-            <img src="../images/$2.svg" alt="$selected">
-            <img src="../images/$2.svg" alt="$">
-            <img src="../images/$2.svg" alt="$">
-          </div>
-          
-          <div class="column-4">
-            <h5>Available Online</h5>
-          </div>
-          <div class="column-5">
-            <h5>Available in Store</h5>
-          </div>
-          <button class="column-6">
-            Wayfair
-          </button>
+  </div>
+</footer> 
         
 
-      </div>
-
-      <div class="row-4">
-        <div class="column-1">
-          <img src="../images/blue2.png" alt="product">
-        </div>
-        <div class="column-2">
-          <img src="../images/Star2.svg" alt="Starselected">
-          <img src="../images/Star2.svg" alt="Starselected">
-          <img src="../images/Star2.svg" alt="Starselected">
-          <img src="../images/Star.svg" alt="Star"> 
-          <img src="../images/Star.svg" alt="Star"> 
-        </div>
-        
-        <div class="column-3">
-          <img src="../images/$2.svg" alt="$selected">
-          <img src="../images/$2.svg" alt="$selected">
-          <img src="../images/$2.svg" alt="$selected">
-          <img src="../images/$2.svg" alt="$selected">
-          <img src="../images/$2.svg" alt="$selected">
-        </div>
-        
-        <div class="column-4">
-          <h5>Available Online</h5>
-        </div>
-        <div class="column-5">
-          <h5>Available in Store</h5>
-        </div>
-        <button class="column-6">
-          Wayfair
-        </button>
-      </div>
-
-      <div class="row-5">
-          <div class="column-1">
-            <img src="../images/blue2.png" alt="product">
-          </div>
-          <div class="column-2">
-            <img src="../images/Star2.svg" alt="Starselected">
-            <img src="../images/Star2.svg" alt="Starselected">
-            <img src="../images/Star2.svg" alt="Starselected">
-            <img src="../images/Star.svg" alt="Star"> 
-            <img src="../images/Star.svg" alt="Star"> 
-          </div>
-          
-          <div class="column-3">
-            <img src="../images/$2.svg" alt="$selected">
-            <img src="../images/$2.svg" alt="$selected">
-            <img src="../images/$2.svg" alt="$selected">
-            <img src="../images/$2.svg" alt="$selected">
-            <img src="../images/$2.svg" alt="$selected">
-          </div>
-          
-          <div class="column-4">
-            <h5>Available Online</h5>
-          </div>
-          <div class="column-5">
-            <h5>Available in Store</h5>
-          </div>
-          <button class="column-6">
-            Wayfair
-          </button>
-        </div>
-
-    </section>
-
-        <!--Footer-->
-
-    <footer class="container">
-          <div class="content">
-            <nav>
-          
-              <ul>
-                <li><a href="#"> Product Lines </a></li>
-                <li><a href="#"> Buy</a></li>
-                <li><img src="images/logo.png" alt="logo"></li>
-                <li><a href="#"> Subscribe </a></li>
-                <li><a href="#"> Collaborations</a></li>
-                <li><a href="#"> Help </a></li>
-              </ul>
-        
-            </nav>
-          </div>
-    </footer>
-
-        <script src="js/scripts-min.js"></script>
+<script src="js/scripts-min.js"></script>
 </body>
 </html>
